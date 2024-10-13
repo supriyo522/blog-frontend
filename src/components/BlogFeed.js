@@ -43,7 +43,12 @@ const BlogFeed = () => {
           </div>
         ))
       )}
+      <footer className="footer">
+        <Link to="/terms-and-conditions">Terms and Conditions</Link>
+        
+      </footer>
     </div>
+    
   );
 }  
 export default BlogFeed;
